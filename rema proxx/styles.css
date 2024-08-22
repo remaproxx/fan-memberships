@@ -1,0 +1,103 @@
+Css*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: sans-serif;
+ }
+
+body {
+    background-color: #f4f4;
+    display:flex
+    justify-content center;
+    align-items: center;
+    min-height: 100vh;
+   }
+   .form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+   }
+   h2 {
+    text-align: center;
+    margin-bottom: 20px;
+   }
+form fieldset {
+ border: 1px solid #ddd;
+ padding: 15px;
+ margin-bottom: 15px;
+ border-radius: 6px;
+   }
+form legend {
+    padding: 0 10px;
+    font-weight: bold;
+ }
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"],
+  form input[type="date"],
+  form select,
+  form textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    }
+    form textarea{
+        resize: vertical;
+        height: 100px;
+    
+    }
+ .radio-group, .checkbox-{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 12px;
+     }
+    form input[type="radio"], form input[type="checkbox"] {
+        margin-right: 6px;
+    }
+form a{
+    color: #007bff;
+    text-decoration: none;
+ }
+.form-bottons {
+    display: flex;
+    justify-content: space-between;
+}
+
+form button {
+    padding: 1opx 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+form button[type="submit"] {background-color:#28a745; color: white;}
+
+form-botton [type=submit] {
+    background-color: #28a745; color: white;
+}
+    form button [type="reset"] {
+        background-color: #dc3545; color: white;
+    }
+form button:hover {
+    opacity:0.9;
+}
+
+
+
+
+
+
+
